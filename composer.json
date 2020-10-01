@@ -1,0 +1,22 @@
+{
+    "name": "wearerequired/private-page-login",
+    "description": "WordPress plugin to redirect non-logged in visitors to a private page to the login page.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0+",
+    "authors": [
+      {
+        "name": "required",
+        "email": "info@required.com",
+        "homepage": "https://required.com",
+        "role": "Company"
+      },
+      {
+        "name": "Ulrich Pogson",
+        "email": "ulrich@required.com",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+      "php": ">=7.0"
+    }
+  }
