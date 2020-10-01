@@ -2,7 +2,7 @@
     "name": "wearerequired/private-page-login",
     "description": "WordPress plugin to redirect non-logged in visitors to a private page to the login page.",
     "type": "wordpress-plugin",
-    "license": "GPL-2.0+",
+    "license": "GPL-2.0-or-later",
     "authors": [
       {
         "name": "required",
