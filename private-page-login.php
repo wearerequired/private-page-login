@@ -30,7 +30,11 @@ add_action(
 	'wp',
 	function () {
 		$queried_object = get_queried_object();
-		if ( 'private' === $queried_object->post_status && ! is_user_logged_in() ) {
+		if (
+			isset( $queried_object->post_status ) &&
+			'private' === $queried_object->post_status &&
+			! is_user_logged_in()
+		) {
 			wp_safe_redirect( wp_login_url( get_permalink( $queried_object->ID ) ) );
 			exit;
 		}
